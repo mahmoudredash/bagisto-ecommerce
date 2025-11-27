@@ -1,0 +1,24 @@
+{
+    "name": "mahmoudreda/blog",
+    "description": "Blog Package for Bagisto",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mahmoudreda\\Blog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MahmoudReda",
+            "email": "mahreda19@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra":{
+        "laravel":{
+            "providers":[
+                "MahmoudReda\\Blog\\Providers\\BlogServiceProvider"
+            ]
+        }
+    }
+}

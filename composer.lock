@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2f992bd3a65209139a1efcb24489d967",
+    "content-hash": "90a8bff074fbb5f8bd843c524a8156a4",
     "packages": [
         {
             "name": "astrotomic/laravel-translatable",
@@ -3992,6 +3992,38 @@
                 }
             ],
             "time": "2025-01-27T12:07:53+00:00"
+        },
+        {
+            "name": "mahmoudreda/blog",
+            "version": "dev-fetcerNewPakeg/mahmoudreda",
+            "dist": {
+                "type": "path",
+                "url": "packages/MahmoudReda/Blog",
+                "reference": "acb8c5cacf469a8611854f3846ff4ec4fdecf56d"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "MahmoudReda\\Blog\\Providers\\BlogServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Mahmoudreda\\Blog\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "MahmoudReda",
+                    "email": "mahreda19@gmail.com"
+                }
+            ],
+            "description": "Blog Package for Bagisto",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "markbaker/complex",
@@ -13974,7 +14006,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "bagisto/image-cache": 20
+        "bagisto/image-cache": 20,
+        "mahmoudreda/blog": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
@@ -13989,6 +14022,6 @@
         "ext-pdo_mysql": "*",
         "ext-tokenizer": "*"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
 }
