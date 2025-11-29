@@ -3995,17 +3995,18 @@
         },
         {
             "name": "mahmoudreda/blog",
-            "version": "dev-fetcerNewPakeg/mahmoudreda",
+            "version": "dev-fetchercompletblogs/mahmoudreda",
             "dist": {
                 "type": "path",
                 "url": "packages/MahmoudReda/Blog",
-                "reference": "acb8c5cacf469a8611854f3846ff4ec4fdecf56d"
+                "reference": "f32bd85dabdf805ff572e6b6ab005c6fc8daaac6"
             },
             "type": "library",
             "extra": {
                 "laravel": {
                     "providers": [
-                        "MahmoudReda\\Blog\\Providers\\BlogServiceProvider"
+                        "MahmoudReda\\Blog\\Providers\\BlogServiceProvider",
+                        "MahmoudReda\\Blog\\Providers\\AdminServiceProvider"
                     ]
                 }
             },

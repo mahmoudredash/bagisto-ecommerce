@@ -2,11 +2,11 @@
 
 namespace MahmoudReda\Blog\Http\Controllers\Api;
 
+use App\Http\Controllers\Controller as ControllersController;
 use Illuminate\Http\Request;
-use Webkul\Core\Http\Controllers\Controller;
 use MahmoudReda\Blog\Models\Post;
 
-class PostController extends Controller
+class PostController extends ControllersController
 {
     public function index()
     {
