@@ -43,4 +43,8 @@ return [
     Webkul\Tax\Providers\TaxServiceProvider::class,
     Webkul\Theme\Providers\ThemeServiceProvider::class,
     Webkul\User\Providers\UserServiceProvider::class,
+    /**
+     * Register Service Provider Package ServiceIT
+     */
+    Webkul\ServiceIT\Providers\ServiceITServiceProvider::class,
 ];
