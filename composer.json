@@ -98,7 +98,7 @@
             "Webkul\\Tax\\": "packages/Webkul/Tax/src",
             "Webkul\\Theme\\": "packages/Webkul/Theme/src",
             "Webkul\\User\\": "packages/Webkul/User/src",
-            "WebKul\\ServiceIT\\":"packages/Webkul/ServiceIT/src"
+            "Webkul\\ServiceIT\\": "packages/Webkul/ServiceIT/src"
         }
     },
     "autoload-dev": {
