@@ -42,7 +42,11 @@ return [
         \Webkul\Tax\Providers\ModuleServiceProvider::class,
         \Webkul\Theme\Providers\ModuleServiceProvider::class,
         \Webkul\User\Providers\ModuleServiceProvider::class,
+<<<<<<< HEAD
         // Custom Service Provider
+=======
+        // Verify ModelServiceProvider Registeration
+>>>>>>> fetcherServeiceNewPakeg/mahmoudredashaaban
         \Webkul\ServiceIT\Providers\ModuleServiceProvider::class,
     ],
 
